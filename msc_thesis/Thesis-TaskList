@@ -1,0 +1,13 @@
+T0 prediction (we have computed T0 for every alloy with TC)	composition features
+Ms prediction	composition features
+Predict the iron equivalent number	composition features
+Classification of the deformation mechanism
+
+Composition features 	shape strain 1, 2, 3	elemental features from matminer
+
+Start with the most simple model before exploring more complex ones
+Try logistic regression classification sklearn (scikit-learn linear models)
+Random tree
+Random forest
+
+Prediction on unseen alloys as the very last step
