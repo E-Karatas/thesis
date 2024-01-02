@@ -14,7 +14,7 @@ TC.child_phase = "HCP_A3";
 TC.temperature_ini = 1273; % in Kelvin
 
 %% Import alloy information and extract data
-load('data/alloy_data6.mat');
+load('data/alloy_data.mat');
 %Get compositions in molar fractions
 for ii = 1:height(T)
     composition{ii} = get_composition(T.alloy{ii});

@@ -1,6 +1,6 @@
 clear variables; home; close all
 
-load('data3/df.mat');
+load('data4/df_Fe_nr.mat');
 
 % Convert empty arrays, [], to empty strings to keep the data type consistent
 microstructureColumn = df2.Microstructure;
@@ -17,4 +17,4 @@ df2.Deformation_mechanism_simple = dms_Column;
 df2.Deformation_mechanism = dm_Column;
 
 % Save the table to Parquet format
-parquetwrite('df.parquet', df2);
+parquetwrite('df_Fe_eqnr.parquet', df2);
