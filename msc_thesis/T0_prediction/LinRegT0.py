@@ -16,6 +16,7 @@ df.head()
 # %%
 X = df.drop(['alloy', 'Ms', 'Deformation_mechanism','Deformation_mechanism_simple', 'composition', 'Microstructure', 'T0'], axis=1)
 y = df[['T0']]
+print(X.head())
 
 # %%
 lr = LinearRegression()
@@ -29,7 +30,7 @@ print('training RMSE = %.3f' % np.sqrt(mean_squared_error(y_true=y, y_pred=lr.pr
 # %%
 from sklearn.model_selection import KFold, cross_val_score
 
-# Use 20-fold cross validation (80% training, 20% test)
+# Use 20-fold cross validation (90% training, 10% test)
 crossvalidation = KFold(n_splits=10, shuffle=True, random_state=1)
 scores = cross_val_score(lr, X, y, scoring='neg_mean_squared_error', cv=crossvalidation, n_jobs=1)
 rmse_scores = [np.sqrt(abs(s)) for s in scores]
