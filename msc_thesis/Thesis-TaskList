@@ -11,3 +11,14 @@ Random tree
 Random forest
 
 Prediction on unseen alloys as the very last step
+
+LASSO
+symbolsk regressions algoritme/metode
+
+make a full machine learning framework that takes only composition based features and 
+predicts the lattice parameters 
+because we can use these to calculate the transformation and dilatation strain
+
+
+
+

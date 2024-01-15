@@ -2,6 +2,12 @@ clear variables; home; close all
 
 load('bio_alloys/bio_Ti_alloys.mat');
 
+% remove Mn, Si, Zn elements because they aren't a feature in our original dataset
+% Identify rows to keep
+rowsToKeep = ~contains(bio_Ti_df.alloy, 'Mn') & ~contains(bio_Ti_df.alloy, 'Si') & ~contains(bio_Ti_df.alloy, 'Zn');
+% Filter the table to keep only the desired rows
+bio_Ti_df = bio_Ti_df(rowsToKeep, :);
+
 %Get compositions in molar fractions
 for ii = 1:height(bio_Ti_df)
     composition{ii} = get_composition(bio_Ti_df.alloy{ii});
@@ -11,7 +17,7 @@ bio_Ti_df.composition = composition';
 
 df2 = bio_Ti_df;
 
-% Initialize an empty matrix to store the content columns
+% Initialize an empty matrix to store the content column
 TempDF = zeros(height(df2), height(df2.composition{1,1}.content));
 
 % Access the row names from the first composition element to initialize the columnNames cell array

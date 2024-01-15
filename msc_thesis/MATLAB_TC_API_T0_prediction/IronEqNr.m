@@ -1,10 +1,12 @@
 clear variables; home; close all
 
-load('data3/df.mat');
+load('data4/bio_df.mat');
 load('data/elements.mat');
 
+df2 = T;
+
 % Initialize the table with zeros
-temp = array2table(zeros(149, 14));
+temp = array2table(zeros(height(df2), 14));
 
 % Assign variable names as a cell array
 temp.Properties.VariableNames = {'alloy', 'Ti','Fe', 'Cr', 'Mo', 'V', 'W', 'Sn', 'Nb', 'Ta', 'Zr', 'Al', 'total', 'Fe_eqnr'};
@@ -40,4 +42,4 @@ temp.Al = 100*df2.Al*elements.atomic_mass('Al')./temp.total;
 temp.Fe_eqnr = 3.5*(temp.Fe/3.5 +temp.Cr/9 +temp.Mo/14 +temp.V/20 +temp.W/25 +temp.Sn/27 +temp.Nb/43 +temp.Ta/75 +temp.Zr/90 -temp.Al/18);
 
 % Append the Fe_eqnr column from temp to df2
-df2 = addvars(df2, temp.Fe_eqnr, 'After', 'Zr', 'NewVariableName', 'Fe_eqnr');
+df2 = addvars(df2, temp.Fe_eqnr, 'After', 'T0', 'NewVariableName', 'Fe_eqnr');

@@ -1,9 +1,9 @@
 clear variables; home; close all
 
-load('data4/df_Fe_nr.mat');
+load('data4/bio_df2.mat');
 
 % Initialize the table with zeros
-temp = array2table(zeros(149, 7));
+temp = array2table(zeros(height(df2), 7));
 
 % Assign variable names as a cell array
 temp.Properties.VariableNames = {'a_BCC', 'a_HCP', 'b_HCP', 'c_HCP', 'a_ortho', 'b_ortho', 'c_ortho'};
@@ -25,7 +25,7 @@ temp.c_ortho = 4.734 - 0.184 * df2.Nb - 1.5 * df2.Mo - 0.4 * df2.Ta - 0.57 * df2
 df2 = addvars(df2, temp.a_BCC, temp.a_HCP, temp.b_HCP, temp.c_HCP, temp.a_ortho, temp.b_ortho, temp.c_ortho, 'After', 'Fe_eqnr', 'NewVariableNames', {'a_BCC', 'a_HCP', 'b_HCP', 'c_HCP', 'a_ortho', 'b_ortho', 'c_ortho'});
 
 % Initialize the table with zeros
-temp2 = array2table(zeros(149, 16));
+temp2 = array2table(zeros(height(df2), 16));
 
 % Assign variable names as a cell array
 temp2.Properties.VariableNames = {'lambda1_HCP', 'lambda2_HCP', 'lambda3_HCP', 'lambda1_ortho', 'lambda2_ortho', 'lambda3_ortho', 'e1_HCP', 'e2_HCP', 'e3_HCP', 'e_HCP', 'e1_ortho', 'e2_ortho', 'e3_ortho', 'e_ortho', 'dV_HCP', 'dV_ortho'};
