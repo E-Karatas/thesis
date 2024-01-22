@@ -19,6 +19,8 @@ make a full machine learning framework that takes only composition based feature
 predicts the lattice parameters 
 because we can use these to calculate the transformation and dilatation strain
 
+put in 4 classes in matlab table, make classification algorithm using composition features, T0
+and the two transformation strains (maybe also include features from matminer like the bulk and shear modulus).
 
-
+cycle learn random forest feature relevance sklearn (scikit)
 
