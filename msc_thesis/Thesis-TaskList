@@ -24,3 +24,10 @@ and the two transformation strains (maybe also include features from matminer li
 
 cycle learn random forest feature relevance sklearn (scikit)
 
+shear-, bulk modulus, T0 and the transformation strains for the classification problem
+
+try to play around with like labels vs T0 or other features.
+
+try to compare the performance of the classification algorithm by using a predicted T0
+from the best regression model to see how the errors propagate
+
