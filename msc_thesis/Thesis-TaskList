@@ -31,3 +31,6 @@ try to play around with like labels vs T0 or other features.
 try to compare the performance of the classification algorithm by using a predicted T0
 from the best regression model to see how the errors propagate
 
+Find out which alloys are being predicted to have a wrong behaviour under stress and see if it coincides with the alloys with a very low T0.
+Look into feature importance.
+Effect of random seed (kmeans)

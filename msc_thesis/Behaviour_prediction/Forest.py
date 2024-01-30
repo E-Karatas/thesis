@@ -40,12 +40,12 @@ param_dist = {'n_estimators': randint(50,500),
               'max_depth': randint(1,20)}
 
 # Create a random forest classifier
-rf = RandomForestClassifier()
+rf = RandomForestClassifier(random_state = 21)
 
 # Use random search to find the best hyperparameters
 rand_search = RandomizedSearchCV(rf, 
                                  param_distributions = param_dist, 
-                                 n_iter=20, 
+                                 n_iter=5, 
                                  cv=5)
 
 # Fit the random search object to the data

@@ -10,7 +10,7 @@ file_path = os.path.join('msc_thesis', 'data', file_name)
 df = pd.read_parquet(file_path)
 df = df.drop(8)
 
-X = df[['Al', 'Cr', 'Fe','Mo', 'Nb', 'O', 'Ta', 'Sn', 'Ti', 'W', 'V', 'Zr','T0','Fe_eqnr','e_HCP','e_ortho','dV_HCP','dV_ortho']]
+X = df[['T0','e_HCP','e_ortho','dV_HCP','dV_ortho']]
 y = df['alloyType']
 
 # split X and y into training and testing sets
