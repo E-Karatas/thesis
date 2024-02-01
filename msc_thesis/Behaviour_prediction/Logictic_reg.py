@@ -10,7 +10,7 @@ file_path = os.path.join('msc_thesis', 'data', file_name)
 df = pd.read_parquet(file_path)
 df = df.drop(8)
 
-X = df[['T0','e_HCP','e_ortho','dV_HCP','dV_ortho']]
+X = df[['Ti','T0','e_ortho','dV_ortho', 'Fe_eqnr']]
 y = df['alloyType']
 
 # split X and y into training and testing sets
@@ -48,4 +48,3 @@ from sklearn.model_selection import KFold, cross_val_score
 
 # Use 5-fold cross validation (80% training, 20% test)
 crossvalidation = KFold(n_splits=5, shuffle=True, random_state=1)
-

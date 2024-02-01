@@ -34,3 +34,8 @@ from the best regression model to see how the errors propagate
 Find out which alloys are being predicted to have a wrong behaviour under stress and see if it coincides with the alloys with a very low T0.
 Look into feature importance.
 Effect of random seed (kmeans)
+
+try removing the random seed in the stratified kmeans method and compare with doing the same for the standard kmeans method (these models should be trained on the most relevant features for model stability).
+- bulk-, shear modulus and (electron negativity maybe).
+change the Ti feature to 1-Ti content so it depicts the alloying content instead.
+Look into the spread in the accuracy between different runs (i.e. sum of non diagonal elements) without seeding the random forest (maybe also not seed the train-test split) - the stratified kfold should hopefully not give a huge spread but look into this.
