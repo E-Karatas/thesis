@@ -1,46 +1,42 @@
-import numpy as np
-import pandas as pd
-import os
-# import category_encoders as ce
+if __name__ == '__main__':
 
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import accuracy_score, confusion_matrix
-from sklearn.svm import SVC
+    import pandas as pd
+    import os                
 
-file_name = 'df_all.parquet'
-file_path = os.path.join('msc_thesis', 'data', file_name)
+    api_key = 'qVMjh9NwNhVq0tNzLpSZmjZIHzoSamsA'
 
-# Read the parquet file
-df = pd.read_parquet(file_path)
-df = df.drop(8)
+    file_name = 'df_all.parquet'
+    file_path = os.path.join('msc_thesis', 'data', file_name)
 
-#print(df.iloc[0])
+    # Read the parquet file
+    df = pd.read_parquet(file_path)
+    df = df.drop(8)
+    df = df.drop('composition', axis=1)
+    df['alloy'] = df['alloy'].str.replace('-', '')
 
-from matminer.data_retrieval.retrieve_MP import MPDataRetrieval
+    #print(df.alloy.iloc[0])
+    #alloys = df[['alloy']]
 
-# Create a dataframe with your alloy compositions
-alloys = [
-    {'Al': 0.0, 'Cr': 0.0, 'Fe': 0.009037, 'Mo': 0.052604, 'Nb': 0.0, 'O': 0.0, 'Ta': 0.0, 'Sn': 0.0, 'Ti': 0.938359, 'W': 0.0, 'V': 0.0, 'Zr': 0.0},
-    # Add more alloys as needed
-]
+    from matminer.featurizers.composition import ElementFraction, ElementProperty
+    #df = StrToComposition().featurize_dataframe(df, "alloy")
+    #ef = ElementFraction()
+    #X = ef.featurize_dataframe(df, 'alloy')
 
-df_compositions = pd.DataFrame(alloys)
+    from sample import ml
+    df = ml.make_composition(df)
 
-# Convert wt% to at%
-# Add your conversion logic here if needed
+    ep_feat = ElementProperty(data_source="pymatgen", features=["bulk_modulus"], stats = ["mean"])
+    df = ep_feat.featurize_dataframe(df, col_id="composition")  # input the "composition" column to the featurizer
 
-# Query the materials database using matminer
-mpr = MPDataRetrieval(api_key="YOUR_MP_API_KEY")  # Get your API key from materialsproject.org
+    # %% Derive additional features from composition
 
-# Specify the properties you are interested in
-properties = ['material_id', 'K_VRH', 'G_VRH']
+    # Drop the non-numerical feature "composition"
+    df = df.drop(["composition"], axis=1)
 
-# Query the materials project database for bulk modulus (K) and shear modulus (G)
-df_materials = mpr.get_all_data(df_compositions, properties)
 
-# Merge the two dataframes based on the material_id
-df_result = pd.merge(df_compositions, df_materials, on='material_id')
+    ep = ElementProperty(data_source="magpie",features=["GSbandgap"],stats=["mean"])
+    #df = ep.featurize_dataframe(df, 'Al', 'Cr', 'Fe','Mo', 'Nb', 'O', 'Ta', 'Sn', 'Ti', 'W', 'V', 'Zr')
 
-# Print the resulting dataframe
-print(df_result)
+    from matminer.data_retrieval.retrieve_MP import MPDataRetrieval
+
+

@@ -29,7 +29,7 @@ while n < 20:
 
     y_pred = cross_val_predict(rf, X, y, cv=stratified_kfold)
     accuracy = accuracy_score(y, y_pred)
-    print('Accuracy: ', accuracy)
+    #print('Accuracy: ', accuracy)
 
     results = cross_val_score(rf, X, y, cv=stratified_kfold)
     # Output the accuracy and std on the accuracy.
@@ -38,7 +38,7 @@ while n < 20:
     cnf_matrix = confusion_matrix(y, y_pred)
     #cnf_matrix
     non_diagonal_sum = np.sum(cnf_matrix) - np.sum(np.diag(cnf_matrix))
-    print(f"Incorrect predictions: {non_diagonal_sum}")
+    print(f"Incorrect predictions: {non_diagonal_sum}\n")
     n += 1
 
 class_names = [0,1,2,3]
