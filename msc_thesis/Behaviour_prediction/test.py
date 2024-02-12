@@ -1,42 +1,97 @@
-if __name__ == '__main__':
+import pandas as pd
+import numpy as np
+import os
 
-    import pandas as pd
-    import os                
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score, confusion_matrix
+import matplotlib.pyplot as plt
+import seaborn as sns
 
-    api_key = 'qVMjh9NwNhVq0tNzLpSZmjZIHzoSamsA'
+file_name = 'df_matminer.pkl'
+file_path = os.path.join('msc_thesis', 'data', file_name)
 
-    file_name = 'df_all.parquet'
-    file_path = os.path.join('msc_thesis', 'data', file_name)
+print(file_path)
 
-    # Read the parquet file
-    df = pd.read_parquet(file_path)
-    df = df.drop(8)
-    df = df.drop('composition', axis=1)
-    df['alloy'] = df['alloy'].str.replace('-', '')
+# Read the saved DataFrame
+df = pd.read_pickle(file_path)
+#df = df.drop(8), PROBLEMATIC ALLOY ALREADY DROPPED!
+print(df.head())
 
-    #print(df.alloy.iloc[0])
-    #alloys = df[['alloy']]
+df['1-Ti'] = 1 - df['Ti']
 
-    from matminer.featurizers.composition import ElementFraction, ElementProperty
-    #df = StrToComposition().featurize_dataframe(df, "alloy")
-    #ef = ElementFraction()
-    #X = ef.featurize_dataframe(df, 'alloy')
+X = df.drop(['alloyType', 'alloy', 'Al', 'Cr', 'Fe','Mo', 'Nb', 'O', 'Ta', 'Sn', 'Ti', 'W', 'V', 'Zr'], axis=1)
+print(X.head())
+y = df['alloyType']
 
-    from sample import ml
-    df = ml.make_composition(df)
+max_depth = 15
+n_estimators = 97
+random_state = 19
 
-    ep_feat = ElementProperty(data_source="pymatgen", features=["bulk_modulus"], stats = ["mean"])
-    df = ep_feat.featurize_dataframe(df, col_id="composition")  # input the "composition" column to the featurizer
+n = 0
+while n < 20:
+    # split X and y into training and testing sets
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state = 21)
 
-    # %% Derive additional features from composition
+    rf = RandomForestClassifier(max_depth = max_depth, n_estimators = n_estimators, n_jobs = 1)
+    rf.fit(X_train, y_train)
 
-    # Drop the non-numerical feature "composition"
-    df = df.drop(["composition"], axis=1)
+    y_pred = rf.predict(X_test)
 
+    accuracy = accuracy_score(y_test, y_pred)
+    print('Accuracy: ', accuracy)
 
-    ep = ElementProperty(data_source="magpie",features=["GSbandgap"],stats=["mean"])
-    #df = ep.featurize_dataframe(df, 'Al', 'Cr', 'Fe','Mo', 'Nb', 'O', 'Ta', 'Sn', 'Ti', 'W', 'V', 'Zr')
+    cnf_matrix = confusion_matrix(y_test, y_pred)
+    #cnf_matrix
+    non_diagonal_sum = np.sum(cnf_matrix) - np.sum(np.diag(cnf_matrix))
+    print(f"Incorrect predictions: {non_diagonal_sum}")
+    n += 1
+    #random_state += 1
 
-    from matminer.data_retrieval.retrieve_MP import MPDataRetrieval
+print(rf.classes_)
+class_names = [0,1,2,3]
+fig, ax = plt.subplots()
+tick_marks = np.arange(len(class_names))
+plt.xticks(tick_marks, class_names)
+plt.yticks(tick_marks, class_names)
 
+# create heatmap
+dfcnfmatrix = pd.DataFrame(cnf_matrix)
 
+# convert row
+row_names = {0:'Martensitic at room T',
+             1:'Slip or TWIP',
+             2:'Superelastic',
+             3:'TRIP'}
+
+dfcnfmatrix = dfcnfmatrix.rename(index = row_names)
+
+# convert column
+dfcnfmatrix.rename(columns = {0:'Martensitic at room T', 1:'Slip or TWIP' , 2:'Superelastic' , 3:'TRIP'}, inplace = True) 
+
+sns.heatmap(dfcnfmatrix, annot=True, cmap="YlGnBu" ,fmt='g', xticklabels = True, yticklabels = True)
+ax.xaxis.set_label_position("top")
+plt.tight_layout()
+plt.title('Confusion matrix', y=1.1)
+plt.ylabel('Actual label')
+plt.xlabel('Predicted label')
+
+plt.show()
+
+# Create a series containing feature importances from the model and feature names from the training data
+feature_importances = pd.Series(rf.feature_importances_, index=X_train.columns).sort_values(ascending=False)
+
+# Plot a simple bar chart
+feature_importances.plot.bar();
+
+plt.show()
+
+feature_importances = pd.Series(rf.feature_importances_, index=X_train.columns).sort_values(ascending=False)
+plt.figure(figsize=(14, 6))
+feature_importances.plot.bar()
+plt.xticks(rotation=45, ha='right')
+plt.title('Feature Importance')
+plt.xlabel('Feature')
+plt.ylabel('Importance')
+plt.tight_layout()
+plt.show()

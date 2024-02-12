@@ -1,0 +1,31 @@
+
+# folder structure
+/data
+    /train
+    /test
+    /validate
+/src
+    config.yaml     # all setup configurations
+    train.py         
+    inference.py    
+    visualize.py       # all matplotlib functions
+    helper.py
+    models/
+        model1.py
+        model2.py
+/models
+    model1.pth
+    model2.pth
+/docs
+    diagrams files etc.
+
+
+
+# all imports at the beginning of the file
+
+# helper functions
+
+# training script
+# e.g. for epoch in NUM_EPOCHS 
+
+# inference script
