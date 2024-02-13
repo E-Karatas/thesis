@@ -20,12 +20,12 @@ if __name__ == '__main__':
     df = ml.make_composition(df)
 
     ep_feat = ElementProperty(data_source="pymatgen", features=["X",
-                "row",
-                "group",
-                "block",
+                #"row",
+                #"group",
+                #"block",
                 "atomic_mass",
                 "atomic_radius",
-                "mendeleev_no",
+                #"mendeleev_no",
                 #"electrical_resistivity",
                 "velocity_of_sound",
                 "thermal_conductivity",
@@ -36,10 +36,10 @@ if __name__ == '__main__':
     df = ep_feat.featurize_dataframe(df, col_id="composition")  # input the "composition" column to the featurizer
 
     # Derive additional features from composition
-    ep_feat2 = ElementProperty(data_source="deml", features=["atom_num",
+    ep_feat2 = ElementProperty(data_source="deml", features=[#"atom_num",
                 "atom_mass",
-                "row_num",
-                "col_num",
+                #"row_num",
+                #"col_num",
                 "atom_radius",
                 "molar_vol",
                 "heat_fusion",
@@ -54,8 +54,29 @@ if __name__ == '__main__':
                 "FERE correction",], stats = ["mean"])
     df = ep_feat2.featurize_dataframe(df, col_id="composition")  # input the "composition" column to the featurizer
 
-    #ep_feat3 = ElementProperty(data_source="magpie", features=["GSvolume_pa"], stats = ["mean"])
-    #df = ep_feat3.featurize_dataframe(df, col_id="composition")
+    ep_feat3 = ElementProperty(data_source="magpie", features=[#"Number",
+                #"MendeleevNumber",
+                "AtomicWeight",
+                "MeltingT",
+                #"Column",
+                #"Row",
+                "CovalentRadius",
+                "Electronegativity",
+                "NsValence",
+                "NpValence",
+                "NdValence",
+                "NfValence",
+                "NValence",
+                "NsUnfilled",
+                "NpUnfilled",
+                "NdUnfilled",
+                "NfUnfilled",
+                "NUnfilled",
+                "GSvolume_pa",
+                "GSbandgap",
+                "GSmagmom",
+                "SpaceGroupNumber",], stats = ["mean"])
+    df = ep_feat3.featurize_dataframe(df, col_id="composition")
 
     # Drop the non-numerical feature "composition"
     df = df.drop(["composition"], axis=1)

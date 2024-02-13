@@ -7,16 +7,16 @@ import os
 from sklearn.metrics import confusion_matrix
 from sklearn.ensemble import RandomForestClassifier
 
-file_name = 'df_matminer.pkl'
+file_name = 'df_all.parquet'
 file_path = os.path.join('msc_thesis', 'data', file_name)
 
-# Read the saved DataFrame
-df = pd.read_pickle(file_path)
-#df = df.drop(8), PROBLEMATIC ALLOY ALREADY DROPPED!
-df['1-Ti'] = 1 - df['Ti'] #alloying content
+# Read the parquet file
+df = pd.read_parquet(file_path)
+df = df.drop(8)
+df['1-Ti'] = 1 - df['Ti']
 
-# feature selection, a lot of features still need to be dropped 
-X = df.drop(['alloyType', 'alloy', 'Al', 'Cr', 'Fe','Mo', 'Nb', 'O', 'Ta', 'Sn', 'Ti', 'W', 'V', 'Zr', 'a_BCC', 'a_HCP', 'b_HCP', 'c_HCP', 'a_ortho', 'b_ortho', 'c_ortho', 'lambda1_HCP', 'lambda2_HCP', 'lambda3_HCP', 'e1_HCP', 'e2_HCP', 'e3_HCP', 'lambda1_ortho', 'lambda2_ortho', 'lambda3_ortho', 'e1_ortho', 'e2_ortho', 'e3_ortho'], axis=1)
+#X = df[['1-Ti','T0','Fe_eqnr','e_ortho','dV_ortho']]
+X = df[['1-Ti','T0','Fe_eqnr','e_HCP','e_ortho','dV_HCP','dV_ortho']]
 y = df['alloyType']
 
 # Calculate class distribution
@@ -98,7 +98,16 @@ plt.tight_layout()
 plt.title('Confusion matrix', y=1.1)
 plt.ylabel('Actual label')
 plt.xlabel('Predicted label')
+
 plt.show()
+
+# Create a series containing feature importances from the model and feature names from the training data
+#feature_importances = pd.Series(rf.feature_importances_, index=X_train.columns).sort_values(ascending=False)
+
+# Plot a simple bar chart
+#feature_importances.plot.bar();
+
+#plt.show()
 
 feature_importances = pd.Series(rf.feature_importances_, index=X_train.columns).sort_values(ascending=False)
 plt.figure(figsize=(14, 6))
