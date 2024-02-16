@@ -82,60 +82,18 @@ if not intersection.empty:
 else:
     print("No indexes from X_test are already represented in X_train.")
 
-max_depth = 15
-n_estimators = 97
-random_state = 19
 
-n = 0
-while n < 20:
-    rf = RandomForestClassifier(max_depth = max_depth, n_estimators = n_estimators, n_jobs = 1)
-    rf.fit(X_train, y_train)
+from sklearn.model_selection import StratifiedShuffleSplit
 
-    y_pred = rf.predict(X_test)
+# Create an instance of StratifiedShuffleSplit
+sss = StratifiedShuffleSplit(n_splits=1, test_size=0.25, random_state=42)
 
-    cnf_matrix = confusion_matrix(y_test, y_pred)
-    #cnf_matrix
-    non_diagonal_sum = np.sum(cnf_matrix) - np.sum(np.diag(cnf_matrix))
-    print(f"Incorrect predictions: {non_diagonal_sum}")
-    n += 1
-    #random_state += 1
+# Get the training and testing indices
+train_index2, test_index2 = next(sss.split(X, y))
 
-#print(rf.classes_)
-class_names = [0,1,2,3]
-fig, ax = plt.subplots()
-tick_marks = np.arange(len(class_names))
-plt.xticks(tick_marks, class_names)
-plt.yticks(tick_marks, class_names)
+# Create training and testing sets
+X_train, X_test = X.iloc[train_index2], X.iloc[test_index2]
+y_train2, y_test2 = y.iloc[train_index2], y.iloc[test_index2]
 
-# create heatmap
-dfcnfmatrix = pd.DataFrame(cnf_matrix)
-
-# convert row
-row_names = {0:'Martensitic at room T',
-             1:'Slip or TWIP',
-             2:'Superelastic',
-             3:'TRIP'}
-
-dfcnfmatrix = dfcnfmatrix.rename(index = row_names)
-
-# convert column
-dfcnfmatrix.rename(columns = {0:'Martensitic at room T', 1:'Slip or TWIP' , 2:'Superelastic' , 3:'TRIP'}, inplace = True) 
-
-sns.heatmap(dfcnfmatrix, annot=True, cmap="YlGnBu" ,fmt='g', xticklabels = True, yticklabels = True)
-ax.xaxis.set_label_position("top")
-plt.tight_layout()
-plt.title('Confusion matrix', y=1.1)
-plt.ylabel('Actual label')
-plt.xlabel('Predicted label')
-
-plt.show()
-
-feature_importances = pd.Series(rf.feature_importances_, index=X_train.columns).sort_values(ascending=False)
-plt.figure(figsize=(14, 6))
-feature_importances.plot.bar()
-plt.xticks(rotation=45, ha='right')
-plt.title('Feature Importance')
-plt.xlabel('Feature')
-plt.ylabel('Importance')
-plt.tight_layout()
-plt.show()
+print(y_train2.value_counts())
+print(y_test2.value_counts())
