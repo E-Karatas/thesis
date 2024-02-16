@@ -41,7 +41,7 @@ if __name__ == '__main__':
                 #"row_num",
                 #"col_num",
                 #"atom_radius",
-                "molar_vol",
+                #"molar_vol",
                 "heat_fusion",
                 #"melting_point",
                 "boiling_point",

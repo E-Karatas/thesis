@@ -7,6 +7,7 @@ import os
 from sklearn.metrics import confusion_matrix
 from sklearn.ensemble import RandomForestClassifier
 
+# The problematic alloy is already dropped in this dataset
 file_name = 'df_matminer.pkl'
 file_path = os.path.join('msc_thesis', 'data', file_name)
 
@@ -17,10 +18,13 @@ df['1-Ti'] = 1 - df['Ti'] #alloying content
 # feature selection, a lot of features still need to be dropped 
 X = df.drop(['alloyType', 'alloy', 'Al', 'Cr', 'Fe','Mo', 'Nb', 'O', 'Ta', 'Sn', 'Ti', 'W', 'V', 'Zr', 'a_BCC', 'a_HCP', 'b_HCP', 'c_HCP', 'a_ortho', 'b_ortho', 'c_ortho', 'lambda1_HCP', 'lambda2_HCP', 'lambda3_HCP', 'e1_HCP', 'e2_HCP', 'e3_HCP', 'lambda1_ortho', 'lambda2_ortho', 'lambda3_ortho', 'e1_ortho', 'e2_ortho', 'e3_ortho'], axis=1)
 y = df['alloyType']
+print(X)
+
+Num_features = X.shape[1]
 
 m = 0
-while m < 10:
-    print(f"New epoch!")
+while m < Num_features:
+    print(f"FEATURES REMOVED: {m}")
     # Calculate class distribution
     class_distribution = y.value_counts()
 
@@ -65,22 +69,31 @@ while m < 10:
     random_state = 19
 
     n = 0
-    while n < 20:
+    
+    while n < 10:
         rf = RandomForestClassifier(max_depth = max_depth, n_estimators = n_estimators, n_jobs = 1)
         rf.fit(X_train, y_train)
 
         y_pred = rf.predict(X_test)
 
         cnf_matrix = confusion_matrix(y_test, y_pred)
-        #cnf_matrix
         non_diagonal_sum = np.sum(cnf_matrix) - np.sum(np.diag(cnf_matrix))
         print(f"Incorrect predictions: {non_diagonal_sum}")
+        
         # Get the least important feature
         least_important_feature = X_train.columns[np.argmin(rf.feature_importances_)]
         print(f"Least important feature: {least_important_feature}")
-        n += 1
-    m += 1
 
+        # Get feature importances
+        feature_importances = pd.Series(rf.feature_importances_, index=X_train.columns).sort_values(ascending=False)
+
+        # Print and remove least important feature
+        least_important_feature = feature_importances.index[-1]
+        print(f"Least important feature: {least_important_feature}")       
+        n += 1
+    X = X.drop(columns=[least_important_feature])
+
+    m += 1
 
 class_names = [0,1,2,3]
 fig, ax = plt.subplots()
@@ -108,7 +121,6 @@ plt.tight_layout()
 plt.title('Confusion matrix', y=1.1)
 plt.ylabel('Actual label')
 plt.xlabel('Predicted label')
-
 plt.show()
 
 feature_importances = pd.Series(rf.feature_importances_, index=X_train.columns).sort_values(ascending=False)
