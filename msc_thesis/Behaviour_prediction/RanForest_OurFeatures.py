@@ -66,25 +66,23 @@ while m < 10:
     random_state = 19
 
     n = 0
-    while n < 10:
-        rf = RandomForestClassifier(max_depth = max_depth, n_estimators = n_estimators, n_jobs = 1)
-        rf.fit(X_train, y_train)
+    rf = RandomForestClassifier(max_depth = max_depth, n_estimators = n_estimators, n_jobs = 1, random_state = 75)
+    rf.fit(X_train, y_train)
 
-        y_pred = rf.predict(X_test)
+    y_pred = rf.predict(X_test)
 
-        # Print misclassified samples
-        misclassified_indices = np.where(y_pred != y_test)[0]
-        for index in misclassified_indices:
-            print(f"Alloy {test_indices[index]} is classified as {y_pred[index]} but is {y_test.iloc[index]}")
+    # Print misclassified samples
+    misclassified_indices = np.where(y_pred != y_test)[0]
+    for index in misclassified_indices:
+        print(f"Alloy {test_indices[index]} is classified as {y_pred[index]} but is {y_test.iloc[index]}")
 
-        cnf_matrix = confusion_matrix(y_test, y_pred)
-        #cnf_matrix
-        non_diagonal_sum = np.sum(cnf_matrix) - np.sum(np.diag(cnf_matrix))
-        print(f"Incorrect predictions: {non_diagonal_sum}")
-        # Get the least important feature
-        least_important_feature = X_train.columns[np.argmin(rf.feature_importances_)]
-        print(f"Least important feature: {least_important_feature}")
-        n += 1
+    cnf_matrix = confusion_matrix(y_test, y_pred)
+    #cnf_matrix
+    non_diagonal_sum = np.sum(cnf_matrix) - np.sum(np.diag(cnf_matrix))
+    print(f"Incorrect predictions: {non_diagonal_sum}")
+    # Get the least important feature
+    least_important_feature = X_train.columns[np.argmin(rf.feature_importances_)]
+    print(f"Least important feature: {least_important_feature}")
     m += 1
 
 class_names = [0,1,2,3]

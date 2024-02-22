@@ -1,7 +1,13 @@
-from sklearn.linear_model import LogisticRegression
-import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
 import pandas as pd
+import numpy as np
 import os
+
+from sklearn.model_selection import StratifiedKFold, cross_val_predict
+from sklearn.linear_model import LogisticRegression
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.metrics import confusion_matrix
 
 file_name = 'df_all.parquet'
 file_path = os.path.join('msc_thesis', 'data', file_name)
@@ -13,38 +19,58 @@ df = df.drop(8)
 X = df[['Ti','T0','e_ortho','dV_ortho', 'Fe_eqnr']]
 y = df['alloyType']
 
-# split X and y into training and testing sets
-from sklearn.model_selection import train_test_split
+logreg = LogisticRegression(multi_class='multinomial', max_iter=10000)
+# Create an instance of MinMaxScaler
+scaler = MinMaxScaler()
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=1)
+# Calculate class distribution
+class_distribution = y.value_counts()
 
-logreg = LogisticRegression(multi_class='multinomial', random_state=1, max_iter=10000)
+# Determine the number of samples for each class in the training and testing sets
+train_size = 0.75
+test_size = 0.25
+train_class_counts = (class_distribution * train_size).round().astype(int)
+test_class_counts = (class_distribution * test_size).round().astype(int)
+
+# Initialize empty lists to store indices of samples for training and testing sets
+train_indices = []
+
+# Iterate over each class
+for label in class_distribution.index:
+    # Get indices of samples for the current class
+    class_indices = df.index[df['alloyType'] == label].tolist()
+    
+    # Randomly select indices for training set while maintaining the class distribution
+    train_indices.extend(np.random.choice(class_indices, train_class_counts[label], replace=False))
+
+# Remaining indices are for the test set
+remaining_indices = df.index.difference(train_indices)
+
+# Randomly select indices for the test set from the remaining indices
+test_indices = []
+for label in class_distribution.index:
+    # Get remaining indices of samples for the current class
+    class_remaining_indices = remaining_indices[df.loc[remaining_indices, 'alloyType'] == label]
+    
+    # Randomly select indices for test set while maintaining the class distribution
+    test_indices.extend(np.random.choice(class_remaining_indices, test_class_counts[label], replace=False))
+
+# Create training and testing sets
+X_train = X.loc[train_indices]
+y_train = y.loc[train_indices]
+X_test = X.loc[test_indices]
+y_test = y.loc[test_indices]
+
+X_train = scaler.fit_transform(X_train)
+X_test = scaler.fit_transform(X_test)
 
 # fit the model with data
 logreg.fit(X_train, y_train)
 
 y_pred = logreg.predict(X_test)
 
-from sklearn import metrics
+cnf_matrix = confusion_matrix(y_test, y_pred)
 
-cnf_matrix = metrics.confusion_matrix(y_test, y_pred)
-print(cnf_matrix)
+non_diagonal_sum = np.sum(cnf_matrix) - np.sum(np.diag(cnf_matrix))
 
-print(logreg.classes_)
-
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
-
-accuracy = accuracy_score(y_test, y_pred)
-precision = precision_score(y_test, y_pred, average='weighted')
-recall = recall_score(y_test, y_pred, average='weighted')
-f1 = f1_score(y_test, y_pred, average='weighted')
-
-print(f'Accuracy: {accuracy:.4f}')
-print(f'Precision: {precision:.4f}')
-print(f'Recall: {recall:.4f}')
-print(f'F1 Score: {f1:.4f}')
-
-from sklearn.model_selection import KFold, cross_val_score
-
-# Use 5-fold cross validation (80% training, 20% test)
-crossvalidation = KFold(n_splits=5, shuffle=True, random_state=1)
+print(non_diagonal_sum)

@@ -26,12 +26,12 @@ if __name__ == '__main__':
                 "atomic_mass",
                 "atomic_radius",
                 #"mendeleev_no",
-                #"electrical_resistivity",
+                "electrical_resistivity",
                 "velocity_of_sound",
                 "thermal_conductivity",
                 "melting_point",
-                #"bulk_modulus",
-                #"coefficient_of_linear_thermal_expansion"
+                "bulk_modulus",
+                "coefficient_of_linear_thermal_expansion"
                 ], stats = ["mean"])
     df = ep_feat.featurize_dataframe(df, col_id="composition")  # input the "composition" column to the featurizer
 
@@ -84,4 +84,6 @@ if __name__ == '__main__':
 
     # Save the dataframe to a file
     df.to_pickle('df_matminer.pkl')
+
+    
 
