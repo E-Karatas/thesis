@@ -1,6 +1,7 @@
 clear variables; home; close all
 
-load('bio_alloys/bio_Ti_alloys.mat');
+% load('bio_alloys/bio_Ti_alloys.mat');
+load('data4/validation_set.mat');
 
 % remove Mn, Si, Zn elements because they aren't a feature in our original dataset
 % Identify rows to keep
@@ -23,6 +24,7 @@ TempDF = zeros(height(df2), height(df2.composition{1,1}.content));
 % Access the row names from the first composition element to initialize the columnNames cell array
 firstCompositionTable = df2.composition{1, 1};
 columnNames = cellstr(firstCompositionTable.Properties.RowNames);
+compositionTable = zeros(height(df2.composition{1,1}),3);
 
 % Loop through each row in the df2 table
 for ii = 1:height(df2)

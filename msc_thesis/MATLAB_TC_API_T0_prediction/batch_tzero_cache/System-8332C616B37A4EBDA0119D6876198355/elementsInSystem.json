@@ -1,0 +1,29 @@
+[
+  {
+    "elementName": "ZR",
+    "isInterstitial": false,
+    "molarMass": 91.224,
+    "stableElementReference": "HCP_A3",
+    "enthalpy": 5566.3,
+    "entropyDiff0To298K": 39.181,
+    "isValid": true
+  },
+  {
+    "elementName": "TI",
+    "isInterstitial": false,
+    "molarMass": 47.88,
+    "stableElementReference": "HCP_A3",
+    "enthalpy": 4810.0,
+    "entropyDiff0To298K": 30.648,
+    "isValid": true
+  },
+  {
+    "elementName": "O",
+    "isInterstitial": false,
+    "molarMass": 15.999,
+    "stableElementReference": "GAS_1/2_MOLE_O2",
+    "enthalpy": 4341.0,
+    "entropyDiff0To298K": 102.52,
+    "isValid": true
+  }
+]

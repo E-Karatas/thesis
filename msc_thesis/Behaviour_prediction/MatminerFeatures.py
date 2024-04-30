@@ -5,15 +5,15 @@ if __name__ == '__main__':
 
     api_key = 'qVMjh9NwNhVq0tNzLpSZmjZIHzoSamsA'
 
-    file_name = 'df_all.parquet'
+    file_name = 'validation_set.pkl'
     file_path = os.path.join('msc_thesis', 'data', file_name)
 
     # Read the parquet file
-    df = pd.read_parquet(file_path)
+    df = pd.read_pickle(file_path)
 
-    # Drop unwanted columns 
-    df = df.drop(8)
-    df = df.drop(['composition', 'Ms', 'Deformation_mechanism', 'Deformation_mechanism_simple', 'LookIntoBehaviour', 'Microstructure'], axis=1)
+    # Drop unwanted columns from df_all.parquet ONLY
+    # df = df.drop(8)
+    # df = df.drop(['composition', 'Ms', 'Deformation_mechanism', 'Deformation_mechanism_simple', 'LookIntoBehaviour', 'Microstructure'], axis=1)
 
     from matminer.featurizers.composition import ElementProperty
     from sample import ml
@@ -26,12 +26,12 @@ if __name__ == '__main__':
                 "atomic_mass",
                 "atomic_radius",
                 #"mendeleev_no",
-                "electrical_resistivity",
+                #"electrical_resistivity",
                 "velocity_of_sound",
                 "thermal_conductivity",
                 "melting_point",
-                "bulk_modulus",
-                "coefficient_of_linear_thermal_expansion"
+                #"bulk_modulus",
+                #"coefficient_of_linear_thermal_expansion"
                 ], stats = ["mean"])
     df = ep_feat.featurize_dataframe(df, col_id="composition")  # input the "composition" column to the featurizer
 
@@ -83,7 +83,7 @@ if __name__ == '__main__':
     print(df.head())
 
     # Save the dataframe to a file
-    df.to_pickle('df_matminer.pkl')
+    df.to_pickle('validation_set_matminer.pkl')
 
     
 

@@ -1,0 +1,146 @@
+[
+  {
+    "name": "VA-4",
+    "elements": [
+      {
+        "left": {
+          "elementName": "VA",
+          "isInterstitial": false,
+          "molarMass": 0.0,
+          "stableElementReference": "VACUUM",
+          "enthalpy": 0.0,
+          "entropyDiff0To298K": 0.0,
+          "isValid": true
+        },
+        "right": 1.0
+      },
+      {
+        "left": {
+          "elementName": "/-",
+          "isInterstitial": false,
+          "molarMass": 0.0,
+          "stableElementReference": "ELECTRON_GAS",
+          "enthalpy": 0.0,
+          "entropyDiff0To298K": 0.0,
+          "isValid": true
+        },
+        "right": 4.0
+      }
+    ],
+    "charge": -4,
+    "isInterstitial": false,
+    "isValid": true
+  },
+  {
+    "name": "VA-2",
+    "elements": [
+      {
+        "left": {
+          "elementName": "VA",
+          "isInterstitial": false,
+          "molarMass": 0.0,
+          "stableElementReference": "VACUUM",
+          "enthalpy": 0.0,
+          "entropyDiff0To298K": 0.0,
+          "isValid": true
+        },
+        "right": 1.0
+      },
+      {
+        "left": {
+          "elementName": "/-",
+          "isInterstitial": false,
+          "molarMass": 0.0,
+          "stableElementReference": "ELECTRON_GAS",
+          "enthalpy": 0.0,
+          "entropyDiff0To298K": 0.0,
+          "isValid": true
+        },
+        "right": 2.0
+      }
+    ],
+    "charge": -2,
+    "isInterstitial": false,
+    "isValid": true
+  },
+  {
+    "name": "VA",
+    "elements": [
+      {
+        "left": {
+          "elementName": "VA",
+          "isInterstitial": false,
+          "molarMass": 0.0,
+          "stableElementReference": "VACUUM",
+          "enthalpy": 0.0,
+          "entropyDiff0To298K": 0.0,
+          "isValid": true
+        },
+        "right": 1.0
+      }
+    ],
+    "charge": 0,
+    "isInterstitial": false,
+    "isValid": true
+  },
+  {
+    "name": "V",
+    "elements": [
+      {
+        "left": {
+          "elementName": "V",
+          "isInterstitial": false,
+          "molarMass": 50.941,
+          "stableElementReference": "BCC_A2",
+          "enthalpy": 4507.0,
+          "entropyDiff0To298K": 30.89,
+          "isValid": true
+        },
+        "right": 1.0
+      }
+    ],
+    "charge": 0,
+    "isInterstitial": false,
+    "isValid": true
+  },
+  {
+    "name": "TI2",
+    "elements": [
+      {
+        "left": {
+          "elementName": "TI",
+          "isInterstitial": false,
+          "molarMass": 47.88,
+          "stableElementReference": "HCP_A3",
+          "enthalpy": 4810.0,
+          "entropyDiff0To298K": 30.648,
+          "isValid": true
+        },
+        "right": 2.0
+      }
+    ],
+    "charge": 0,
+    "isInterstitial": false,
+    "isValid": true
+  },
+  {
+    "name": "TI",
+    "elements": [
+      {
+        "left": {
+          "elementName": "TI",
+          "isInterstitial": false,
+          "molarMass": 47.88,
+          "stableElementReference": "HCP_A3",
+          "enthalpy": 4810.0,
+          "entropyDiff0To298K": 30.648,
+          "isValid": true
+        },
+        "right": 1.0
+      }
+    ],
+    "charge": 0,
+    "isInterstitial": false,
+    "isValid": true
+  }
+]

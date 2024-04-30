@@ -1,0 +1,26 @@
+{
+  "TCTI4": [
+    "\u0027N. Dupin, fixing VA:VA\u003d30*T\u0027",
+    "\u0027Alan Dinsdale, SGTE Data for Pure Elements, Calphad Vol 15(1991) p 317-425, also in NPL Report DMA(A)195 Rev. August 1990\u0027",
+    "\u0027X.-G. Lu, M Selleby and B. Sundman, CALPHAD, Vol. 29, 2005, pp. 68-89; Volumes\u0027",
+    "\u0027Alan Dinsdale, SGTE Data for Pure Elements, NPL Report DMA(A)195 September 1989\u0027",
+    "\u0027X.-G. Lu, Thermo-Calc Software AB, Sweden, 2006; Molar volumes\u0027",
+    "\u0027Volume data for TCFE4, 2006\u0027",
+    "\u0027K Frisk, P Gustafson, Calphad 12(1988) 247-254; Cr-Mo-W\u0027",
+    "\u0027G. Ghosh, J Phase Equilibria 23(4) (2002) 310-328, Cr-Ti-V\u0027",
+    "\u0027H. Lu, et al, Calphad 50 (2015) 134-143, Cr-Nb, Cr-Zr, Cr-Nb-Zr\u0027",
+    "\u0027H L Chen, Remodeling of Mo-Ti for the Ti/TiAl project, 2016\u0027",
+    "\u0027Yang YANG, Molar volume of Ti-Mo for project Ti/TiAl II, 2017\u0027",
+    "\u0027R. Jerlerud and B. Sundman, Calphad 27 (2003) 253-262, Mo-Zr\u0027",
+    "\u0027N. Dupin and J. Bratberg, Unpublished work.\u0027",
+    "\u0027H Kumar, P Wollants and L Delacy, J Alloys and Comps, 206 (1994) 121-127; Ti-Zr\u0027",
+    "\u0027Yang YANG, Molar volume of Ti-Zr for project Ti/TiAl II, 2017\u0027",
+    "\u0027H L Chen, Modeling of Mo-Ti-Zr for Project Ti/TiAl, 2016\u0027",
+    "\u0027H-L Chen, in TCAL7.0, Evaluation and modeling of electrical resistivity and thermal conductivity\u0027",
+    "\u0027Yang YANG, unary update of ELRS, THCD, May 2021\u0027",
+    "\u0027R. Naraghi, Thermo-Calc Software AB, Sweden, 2020; ELRS/THCD\u0027",
+    "\u0027R. Naraghi, Thermo-Calc Software AB, Sweden, 2021; Default values for ELRS/THCD\u0027",
+    "\u0027Yang YANG, Thermo-Calc Software AB, Sweden, 2021; Assessment of ELRS/THCD for Ti alloys\u0027",
+    "\u0027 Yang YANG, Thermo-Calc Software AB, Sweden, 2021; Validations on ELRS/THCD for Ti alloys\u0027"
+  ]
+}

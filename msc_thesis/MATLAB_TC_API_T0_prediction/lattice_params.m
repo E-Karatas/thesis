@@ -1,6 +1,6 @@
 clear variables; home; close all
 
-load('data4/bio_df2.mat');
+load('data4/validation_set5.mat');
 
 % Initialize the table with zeros
 temp = array2table(zeros(height(df2), 7));

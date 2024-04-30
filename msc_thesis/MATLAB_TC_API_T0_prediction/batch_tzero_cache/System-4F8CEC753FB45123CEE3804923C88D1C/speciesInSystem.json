@@ -1,0 +1,726 @@
+[
+  {
+    "name": "ZR2",
+    "elements": [
+      {
+        "left": {
+          "elementName": "ZR",
+          "isInterstitial": false,
+          "molarMass": 91.224,
+          "stableElementReference": "HCP_A3",
+          "enthalpy": 5566.3,
+          "entropyDiff0To298K": 39.181,
+          "isValid": true
+        },
+        "right": 2.0
+      }
+    ],
+    "charge": 0,
+    "isInterstitial": false,
+    "isValid": true
+  },
+  {
+    "name": "ZR1/2O1",
+    "elements": [
+      {
+        "left": {
+          "elementName": "O",
+          "isInterstitial": false,
+          "molarMass": 15.999,
+          "stableElementReference": "GAS_1/2_MOLE_O2",
+          "enthalpy": 4341.0,
+          "entropyDiff0To298K": 102.52,
+          "isValid": true
+        },
+        "right": 1.0
+      },
+      {
+        "left": {
+          "elementName": "ZR",
+          "isInterstitial": false,
+          "molarMass": 91.224,
+          "stableElementReference": "HCP_A3",
+          "enthalpy": 5566.3,
+          "entropyDiff0To298K": 39.181,
+          "isValid": true
+        },
+        "right": 0.5
+      }
+    ],
+    "charge": 0,
+    "isInterstitial": false,
+    "isValid": true
+  },
+  {
+    "name": "ZR",
+    "elements": [
+      {
+        "left": {
+          "elementName": "ZR",
+          "isInterstitial": false,
+          "molarMass": 91.224,
+          "stableElementReference": "HCP_A3",
+          "enthalpy": 5566.3,
+          "entropyDiff0To298K": 39.181,
+          "isValid": true
+        },
+        "right": 1.0
+      }
+    ],
+    "charge": 0,
+    "isInterstitial": false,
+    "isValid": true
+  },
+  {
+    "name": "VA-4",
+    "elements": [
+      {
+        "left": {
+          "elementName": "VA",
+          "isInterstitial": false,
+          "molarMass": 0.0,
+          "stableElementReference": "VACUUM",
+          "enthalpy": 0.0,
+          "entropyDiff0To298K": 0.0,
+          "isValid": true
+        },
+        "right": 1.0
+      },
+      {
+        "left": {
+          "elementName": "/-",
+          "isInterstitial": false,
+          "molarMass": 0.0,
+          "stableElementReference": "ELECTRON_GAS",
+          "enthalpy": 0.0,
+          "entropyDiff0To298K": 0.0,
+          "isValid": true
+        },
+        "right": 4.0
+      }
+    ],
+    "charge": -4,
+    "isInterstitial": false,
+    "isValid": true
+  },
+  {
+    "name": "VA-2",
+    "elements": [
+      {
+        "left": {
+          "elementName": "VA",
+          "isInterstitial": false,
+          "molarMass": 0.0,
+          "stableElementReference": "VACUUM",
+          "enthalpy": 0.0,
+          "entropyDiff0To298K": 0.0,
+          "isValid": true
+        },
+        "right": 1.0
+      },
+      {
+        "left": {
+          "elementName": "/-",
+          "isInterstitial": false,
+          "molarMass": 0.0,
+          "stableElementReference": "ELECTRON_GAS",
+          "enthalpy": 0.0,
+          "entropyDiff0To298K": 0.0,
+          "isValid": true
+        },
+        "right": 2.0
+      }
+    ],
+    "charge": -2,
+    "isInterstitial": false,
+    "isValid": true
+  },
+  {
+    "name": "VA",
+    "elements": [
+      {
+        "left": {
+          "elementName": "VA",
+          "isInterstitial": false,
+          "molarMass": 0.0,
+          "stableElementReference": "VACUUM",
+          "enthalpy": 0.0,
+          "entropyDiff0To298K": 0.0,
+          "isValid": true
+        },
+        "right": 1.0
+      }
+    ],
+    "charge": 0,
+    "isInterstitial": false,
+    "isValid": true
+  },
+  {
+    "name": "TIO2",
+    "elements": [
+      {
+        "left": {
+          "elementName": "O",
+          "isInterstitial": false,
+          "molarMass": 15.999,
+          "stableElementReference": "GAS_1/2_MOLE_O2",
+          "enthalpy": 4341.0,
+          "entropyDiff0To298K": 102.52,
+          "isValid": true
+        },
+        "right": 2.0
+      },
+      {
+        "left": {
+          "elementName": "TI",
+          "isInterstitial": false,
+          "molarMass": 47.88,
+          "stableElementReference": "HCP_A3",
+          "enthalpy": 4810.0,
+          "entropyDiff0To298K": 30.648,
+          "isValid": true
+        },
+        "right": 1.0
+      }
+    ],
+    "charge": 0,
+    "isInterstitial": false,
+    "isValid": true
+  },
+  {
+    "name": "TI2",
+    "elements": [
+      {
+        "left": {
+          "elementName": "TI",
+          "isInterstitial": false,
+          "molarMass": 47.88,
+          "stableElementReference": "HCP_A3",
+          "enthalpy": 4810.0,
+          "entropyDiff0To298K": 30.648,
+          "isValid": true
+        },
+        "right": 2.0
+      }
+    ],
+    "charge": 0,
+    "isInterstitial": false,
+    "isValid": true
+  },
+  {
+    "name": "TI",
+    "elements": [
+      {
+        "left": {
+          "elementName": "TI",
+          "isInterstitial": false,
+          "molarMass": 47.88,
+          "stableElementReference": "HCP_A3",
+          "enthalpy": 4810.0,
+          "entropyDiff0To298K": 30.648,
+          "isValid": true
+        },
+        "right": 1.0
+      }
+    ],
+    "charge": 0,
+    "isInterstitial": false,
+    "isValid": true
+  },
+  {
+    "name": "O7TI4",
+    "elements": [
+      {
+        "left": {
+          "elementName": "O",
+          "isInterstitial": false,
+          "molarMass": 15.999,
+          "stableElementReference": "GAS_1/2_MOLE_O2",
+          "enthalpy": 4341.0,
+          "entropyDiff0To298K": 102.52,
+          "isValid": true
+        },
+        "right": 7.0
+      },
+      {
+        "left": {
+          "elementName": "TI",
+          "isInterstitial": false,
+          "molarMass": 47.88,
+          "stableElementReference": "HCP_A3",
+          "enthalpy": 4810.0,
+          "entropyDiff0To298K": 30.648,
+          "isValid": true
+        },
+        "right": 4.0
+      }
+    ],
+    "charge": 0,
+    "isInterstitial": false,
+    "isValid": true
+  },
+  {
+    "name": "O5TI3",
+    "elements": [
+      {
+        "left": {
+          "elementName": "O",
+          "isInterstitial": false,
+          "molarMass": 15.999,
+          "stableElementReference": "GAS_1/2_MOLE_O2",
+          "enthalpy": 4341.0,
+          "entropyDiff0To298K": 102.52,
+          "isValid": true
+        },
+        "right": 5.0
+      },
+      {
+        "left": {
+          "elementName": "TI",
+          "isInterstitial": false,
+          "molarMass": 47.88,
+          "stableElementReference": "HCP_A3",
+          "enthalpy": 4810.0,
+          "entropyDiff0To298K": 30.648,
+          "isValid": true
+        },
+        "right": 3.0
+      }
+    ],
+    "charge": 0,
+    "isInterstitial": false,
+    "isValid": true
+  },
+  {
+    "name": "O3TI2",
+    "elements": [
+      {
+        "left": {
+          "elementName": "O",
+          "isInterstitial": false,
+          "molarMass": 15.999,
+          "stableElementReference": "GAS_1/2_MOLE_O2",
+          "enthalpy": 4341.0,
+          "entropyDiff0To298K": 102.52,
+          "isValid": true
+        },
+        "right": 3.0
+      },
+      {
+        "left": {
+          "elementName": "TI",
+          "isInterstitial": false,
+          "molarMass": 47.88,
+          "stableElementReference": "HCP_A3",
+          "enthalpy": 4810.0,
+          "entropyDiff0To298K": 30.648,
+          "isValid": true
+        },
+        "right": 2.0
+      }
+    ],
+    "charge": 0,
+    "isInterstitial": false,
+    "isValid": true
+  },
+  {
+    "name": "O3",
+    "elements": [
+      {
+        "left": {
+          "elementName": "O",
+          "isInterstitial": false,
+          "molarMass": 15.999,
+          "stableElementReference": "GAS_1/2_MOLE_O2",
+          "enthalpy": 4341.0,
+          "entropyDiff0To298K": 102.52,
+          "isValid": true
+        },
+        "right": 3.0
+      }
+    ],
+    "charge": 0,
+    "isInterstitial": false,
+    "isValid": true
+  },
+  {
+    "name": "O2ZR1",
+    "elements": [
+      {
+        "left": {
+          "elementName": "O",
+          "isInterstitial": false,
+          "molarMass": 15.999,
+          "stableElementReference": "GAS_1/2_MOLE_O2",
+          "enthalpy": 4341.0,
+          "entropyDiff0To298K": 102.52,
+          "isValid": true
+        },
+        "right": 2.0
+      },
+      {
+        "left": {
+          "elementName": "ZR",
+          "isInterstitial": false,
+          "molarMass": 91.224,
+          "stableElementReference": "HCP_A3",
+          "enthalpy": 5566.3,
+          "entropyDiff0To298K": 39.181,
+          "isValid": true
+        },
+        "right": 1.0
+      }
+    ],
+    "charge": 0,
+    "isInterstitial": false,
+    "isValid": true
+  },
+  {
+    "name": "O2TI1",
+    "elements": [
+      {
+        "left": {
+          "elementName": "O",
+          "isInterstitial": false,
+          "molarMass": 15.999,
+          "stableElementReference": "GAS_1/2_MOLE_O2",
+          "enthalpy": 4341.0,
+          "entropyDiff0To298K": 102.52,
+          "isValid": true
+        },
+        "right": 2.0
+      },
+      {
+        "left": {
+          "elementName": "TI",
+          "isInterstitial": false,
+          "molarMass": 47.88,
+          "stableElementReference": "HCP_A3",
+          "enthalpy": 4810.0,
+          "entropyDiff0To298K": 30.648,
+          "isValid": true
+        },
+        "right": 1.0
+      }
+    ],
+    "charge": 0,
+    "isInterstitial": false,
+    "isValid": true
+  },
+  {
+    "name": "O2",
+    "elements": [
+      {
+        "left": {
+          "elementName": "O",
+          "isInterstitial": false,
+          "molarMass": 15.999,
+          "stableElementReference": "GAS_1/2_MOLE_O2",
+          "enthalpy": 4341.0,
+          "entropyDiff0To298K": 102.52,
+          "isValid": true
+        },
+        "right": 2.0
+      }
+    ],
+    "charge": 0,
+    "isInterstitial": false,
+    "isValid": true
+  },
+  {
+    "name": "O1ZR1",
+    "elements": [
+      {
+        "left": {
+          "elementName": "O",
+          "isInterstitial": false,
+          "molarMass": 15.999,
+          "stableElementReference": "GAS_1/2_MOLE_O2",
+          "enthalpy": 4341.0,
+          "entropyDiff0To298K": 102.52,
+          "isValid": true
+        },
+        "right": 1.0
+      },
+      {
+        "left": {
+          "elementName": "ZR",
+          "isInterstitial": false,
+          "molarMass": 91.224,
+          "stableElementReference": "HCP_A3",
+          "enthalpy": 5566.3,
+          "entropyDiff0To298K": 39.181,
+          "isValid": true
+        },
+        "right": 1.0
+      }
+    ],
+    "charge": 0,
+    "isInterstitial": false,
+    "isValid": true
+  },
+  {
+    "name": "O1TI1",
+    "elements": [
+      {
+        "left": {
+          "elementName": "O",
+          "isInterstitial": false,
+          "molarMass": 15.999,
+          "stableElementReference": "GAS_1/2_MOLE_O2",
+          "enthalpy": 4341.0,
+          "entropyDiff0To298K": 102.52,
+          "isValid": true
+        },
+        "right": 1.0
+      },
+      {
+        "left": {
+          "elementName": "TI",
+          "isInterstitial": false,
+          "molarMass": 47.88,
+          "stableElementReference": "HCP_A3",
+          "enthalpy": 4810.0,
+          "entropyDiff0To298K": 30.648,
+          "isValid": true
+        },
+        "right": 1.0
+      }
+    ],
+    "charge": 0,
+    "isInterstitial": false,
+    "isValid": true
+  },
+  {
+    "name": "O-2",
+    "elements": [
+      {
+        "left": {
+          "elementName": "O",
+          "isInterstitial": false,
+          "molarMass": 15.999,
+          "stableElementReference": "GAS_1/2_MOLE_O2",
+          "enthalpy": 4341.0,
+          "entropyDiff0To298K": 102.52,
+          "isValid": true
+        },
+        "right": 1.0
+      },
+      {
+        "left": {
+          "elementName": "/-",
+          "isInterstitial": false,
+          "molarMass": 0.0,
+          "stableElementReference": "ELECTRON_GAS",
+          "enthalpy": 0.0,
+          "entropyDiff0To298K": 0.0,
+          "isValid": true
+        },
+        "right": 2.0
+      }
+    ],
+    "charge": -2,
+    "isInterstitial": false,
+    "isValid": true
+  },
+  {
+    "name": "O",
+    "elements": [
+      {
+        "left": {
+          "elementName": "O",
+          "isInterstitial": false,
+          "molarMass": 15.999,
+          "stableElementReference": "GAS_1/2_MOLE_O2",
+          "enthalpy": 4341.0,
+          "entropyDiff0To298K": 102.52,
+          "isValid": true
+        },
+        "right": 1.0
+      }
+    ],
+    "charge": 0,
+    "isInterstitial": false,
+    "isValid": true
+  },
+  {
+    "name": "NBO5/2",
+    "elements": [
+      {
+        "left": {
+          "elementName": "NB",
+          "isInterstitial": false,
+          "molarMass": 92.906,
+          "stableElementReference": "BCC_A2",
+          "enthalpy": 5220.0,
+          "entropyDiff0To298K": 36.27,
+          "isValid": true
+        },
+        "right": 1.0
+      },
+      {
+        "left": {
+          "elementName": "O",
+          "isInterstitial": false,
+          "molarMass": 15.999,
+          "stableElementReference": "GAS_1/2_MOLE_O2",
+          "enthalpy": 4341.0,
+          "entropyDiff0To298K": 102.52,
+          "isValid": true
+        },
+        "right": 2.5
+      }
+    ],
+    "charge": 0,
+    "isInterstitial": false,
+    "isValid": true
+  },
+  {
+    "name": "NBO2",
+    "elements": [
+      {
+        "left": {
+          "elementName": "NB",
+          "isInterstitial": false,
+          "molarMass": 92.906,
+          "stableElementReference": "BCC_A2",
+          "enthalpy": 5220.0,
+          "entropyDiff0To298K": 36.27,
+          "isValid": true
+        },
+        "right": 1.0
+      },
+      {
+        "left": {
+          "elementName": "O",
+          "isInterstitial": false,
+          "molarMass": 15.999,
+          "stableElementReference": "GAS_1/2_MOLE_O2",
+          "enthalpy": 4341.0,
+          "entropyDiff0To298K": 102.52,
+          "isValid": true
+        },
+        "right": 2.0
+      }
+    ],
+    "charge": 0,
+    "isInterstitial": false,
+    "isValid": true
+  },
+  {
+    "name": "NB2O5",
+    "elements": [
+      {
+        "left": {
+          "elementName": "NB",
+          "isInterstitial": false,
+          "molarMass": 92.906,
+          "stableElementReference": "BCC_A2",
+          "enthalpy": 5220.0,
+          "entropyDiff0To298K": 36.27,
+          "isValid": true
+        },
+        "right": 2.0
+      },
+      {
+        "left": {
+          "elementName": "O",
+          "isInterstitial": false,
+          "molarMass": 15.999,
+          "stableElementReference": "GAS_1/2_MOLE_O2",
+          "enthalpy": 4341.0,
+          "entropyDiff0To298K": 102.52,
+          "isValid": true
+        },
+        "right": 5.0
+      }
+    ],
+    "charge": 0,
+    "isInterstitial": false,
+    "isValid": true
+  },
+  {
+    "name": "NB1O2",
+    "elements": [
+      {
+        "left": {
+          "elementName": "NB",
+          "isInterstitial": false,
+          "molarMass": 92.906,
+          "stableElementReference": "BCC_A2",
+          "enthalpy": 5220.0,
+          "entropyDiff0To298K": 36.27,
+          "isValid": true
+        },
+        "right": 1.0
+      },
+      {
+        "left": {
+          "elementName": "O",
+          "isInterstitial": false,
+          "molarMass": 15.999,
+          "stableElementReference": "GAS_1/2_MOLE_O2",
+          "enthalpy": 4341.0,
+          "entropyDiff0To298K": 102.52,
+          "isValid": true
+        },
+        "right": 2.0
+      }
+    ],
+    "charge": 0,
+    "isInterstitial": false,
+    "isValid": true
+  },
+  {
+    "name": "NB1O1",
+    "elements": [
+      {
+        "left": {
+          "elementName": "NB",
+          "isInterstitial": false,
+          "molarMass": 92.906,
+          "stableElementReference": "BCC_A2",
+          "enthalpy": 5220.0,
+          "entropyDiff0To298K": 36.27,
+          "isValid": true
+        },
+        "right": 1.0
+      },
+      {
+        "left": {
+          "elementName": "O",
+          "isInterstitial": false,
+          "molarMass": 15.999,
+          "stableElementReference": "GAS_1/2_MOLE_O2",
+          "enthalpy": 4341.0,
+          "entropyDiff0To298K": 102.52,
+          "isValid": true
+        },
+        "right": 1.0
+      }
+    ],
+    "charge": 0,
+    "isInterstitial": false,
+    "isValid": true
+  },
+  {
+    "name": "NB",
+    "elements": [
+      {
+        "left": {
+          "elementName": "NB",
+          "isInterstitial": false,
+          "molarMass": 92.906,
+          "stableElementReference": "BCC_A2",
+          "enthalpy": 5220.0,
+          "entropyDiff0To298K": 36.27,
+          "isValid": true
+        },
+        "right": 1.0
+      }
+    ],
+    "charge": 0,
+    "isInterstitial": false,
+    "isValid": true
+  }
+]

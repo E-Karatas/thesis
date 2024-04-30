@@ -1,0 +1,25 @@
+[
+  {
+    "elements": [
+      "Nb",
+      "Ti",
+      "Zr"
+    ],
+    "speciesToCreateAndSelect": [],
+    "speciesToAdd": [],
+    "speciesToRemove": [],
+    "phasesToAdd": [
+      "BCC_B2",
+      "HCP_A3"
+    ],
+    "addedCompositionSets": [],
+    "phasesToRemove": [],
+    "constituentsToRejectFromSublattice": [],
+    "constituentsToSelectFromSublattice": [],
+    "name": "TCTI4",
+    "deSelectDefaultPhases": true,
+    "lastChanged": 0,
+    "isUserDatabase": false,
+    "databaseLoadCommand": "TCTI4"
+  }
+]

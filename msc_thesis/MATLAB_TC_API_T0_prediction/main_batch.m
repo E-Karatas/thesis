@@ -14,7 +14,8 @@ TC.child_phase = "HCP_A3";
 TC.temperature_ini = 1273; % in Kelvin
 
 %% Import alloy information and extract data
-load('bio_alloys/filtered_bio_df.mat');
+%load('bio_alloys/filtered_bio_df.mat');
+load('data4\validation_set3.mat')
 %Get compositions in molar fractions
 
 T = bio_alloys_df;

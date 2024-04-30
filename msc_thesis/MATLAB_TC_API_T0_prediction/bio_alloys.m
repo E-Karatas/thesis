@@ -1,15 +1,16 @@
 clear variables; home; close all
 
 % Specify the Excel file path
-excelFilePath = 'bio_alloys\Bio_Ti_clean_V2.0.xlsx';
+excelFilePath = 'bio_alloys\BioAlloysValidationForMatlab.xlsx';
 % Read data from Excel file into a table
 dataTable = readtable(excelFilePath);
 
 % Initialize the table with zeros
-bio_Ti_df = array2table(zeros(height(dataTable), 1));
+bio_Ti_df = array2table(zeros(height(dataTable), 2));
 % Assign variable names as a cell array
-bio_Ti_df.Properties.VariableNames = {'alloy'};
-bio_Ti_df.alloy = dataTable.Material;
+bio_Ti_df.Properties.VariableNames = {'alloy','alloyType'};
+bio_Ti_df.alloy = dataTable.alloy;
+bio_Ti_df.alloyType = dataTable.alloyType;
 
 % Remove spaces from the 'alloy' variable
 bio_Ti_df.alloy = strrep(bio_Ti_df.alloy, ' ', '');

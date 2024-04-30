@@ -12,7 +12,7 @@ scatter(df.T0, df.Ms);
 % Set axis labels
 xlabel('T0 [K]');
 ylabel('Ms [K]');
-title('T0 vs Ms');
+title('Ms vs T0');
 
 % Add a line y = x
 hold on;  % This keeps the existing plot while adding the new line

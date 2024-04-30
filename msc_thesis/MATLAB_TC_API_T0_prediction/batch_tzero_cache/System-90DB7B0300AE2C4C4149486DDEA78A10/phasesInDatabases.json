@@ -1,0 +1,5295 @@
+[
+  {
+    "phaseName": "ZRTIO4_BETA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ZRTIO4_ALPHA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ZRTI2O6",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ZRSIO4",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ZRSI2_C49",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ZRO2_TETR",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ZRO2_MONO",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ZR5SI4",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "YSI2_HT",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "YH3_EPSLON",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "YC_GAMMA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "YC2_C11A",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "YB66",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "YB4",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "Y3SI5_LT",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "Y3SI5_HT",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "Y2C3_R",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "Y2C3_H",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "Y1B6",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "Y15C19_R",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "Y15C19_H",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "WO3_LT",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "WO3_HT",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "WO2_96",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "WO2_90",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "WO2_72",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "W5SI3_D8M",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "W1O2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "VO2_LT",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "V6O13",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "V5B6",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "V52O64",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "V3O7",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "V3O5_LT",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "V3H2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "V3C2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "V2O_SS",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "V2O5",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "V2B3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TRIDYMITE",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TISI2_C54",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TIO_ALPHA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TIB_B27",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TIB2_C32",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TI9O17",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TI8O15",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TI7O13",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TI6SN5",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TI6SI2B",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TI6O11",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TI5O9",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TI5AL3O2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TI4O7",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TI4N3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TI4CU2O",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TI3O5",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TI3O2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TI3N2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TI3CU3O",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TI3CO5B2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TI3B4",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TI3ALC",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TI3AL1O1",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TI3AL1C2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TI2X_OMEGA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TI2SN3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TI2N_C4",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TI2NIH",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TI2ALC",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TI20O39",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TI10O19",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TAU",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TAN_EPS",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TAAL",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TA5SI3_D8L",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TA2O5_LT",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TA2O5_HT",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TA2H_EPSLON",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "TA1AL2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "T6CUNITI",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "T5CUFETI",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "T4CUNITI",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "T4CUFETI",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "T2CUNITI",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "T1CUNITI",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "SPINEL",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "SNO",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "SN3O4",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "SIGMA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "SIC",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "SI5V6",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "SI3N4",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "R_PHASE",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "RUY3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "RUTILE_TIO2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "RUSI",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "RUB",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "RU4SI3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "RU3SN7",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "RU2Y5",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "RU2Y3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "RU2SN3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "RU2SI_C37",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "RU2SI3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "RU2B3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "RU25Y44",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "RU1B2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "RHODONITE",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "REZR2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "RESI2_C11B",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "REO3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "REO2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "REB2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "RE7B3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "RE3B",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "RE2SI",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "RE2O7",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "QUARTZ",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "P_PHASE",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "PT8TI",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "PT3TI4",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "PSEUDO_BROOKITE",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "PDZR_BETA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "PDZR_ALPHA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "PDZRM",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "PD5TI3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "PD4ZR3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "PD3TI2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "PD2TI",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "O_PHASE",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ORD_SIG",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": false,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "OMEGA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "OLIVINE",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "O1_DIS",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NIZR",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NIWO4",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NITI2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NISI_B31",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NI8TA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NI7ZR2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NI5ZR",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NI4Y",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NI4B3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NI3Y",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NI3TI_D024",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NI3TA_D0A",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NI3SN_HT",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NI3SN_D019",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NI3SN4",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NI3SN2_LT",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NI3SN2_HT",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NI3SI_ORTHO",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NI3SI_MONOCL",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NI3SI2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NI3B_D011",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NI31SI12",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NI2Y3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NI2Y1",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NI2V",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NI2TA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NI2SI_TETA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NI17Y2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NI11ZR9",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NI10ZR7",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NBSN2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NBO",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NBH_BETA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NB3RU5",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NB2O5",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NB2B3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "NB1O2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MZR3_E1A",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MU_PHASE",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": false,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MULLITE",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MSI_B27",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MSI2_C1",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MOSI2_C11B",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MOO3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MOO2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MONI_DELTA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MONI4_BETA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MOCOB",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MOB4",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MO9O26",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MO8O23",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MO4O11",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MNYO3_HEX",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MNTI_LT",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MNTI_HT",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MNTA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MNSN2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MNNI2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MNB4",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MN9SI2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MN6SI",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MN6N5",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MN6N4",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MN4TI",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MN3TI",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MN3SN2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MN3SI",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MN2YO5",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MN2SN",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MN2B_D1F",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MN1O2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MN12Y",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MN11SI19",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MC_SHP",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MC_ETA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "MB_B33",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "M7C3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "M6C",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "M5SI3_D88",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "M5C2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "M3SI2_D5A",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "M3SI1",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "M3C2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "M3B2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "M2O3H",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "M2O3C",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "M2B_TETR",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "M23C6",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "M12C",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "LIQUID",
+    "metadata": {
+      "type": "LIQUID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "L12_FCC",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "L10_FCC",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "KYANITE",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ION_LIQ",
+    "metadata": {
+      "type": "IONIC_LIQUID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "H_L21",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "HIGH_SIGMA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "HFRE",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "HFNI_ALPHA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "HFNI3_BETA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "HFNI3_ALPHA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "HFMN",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "HF8NI21",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "HF3NI7",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "HCP_A3",
+    "metadata": {
+      "type": "SOLID",
+      "sublattices": [
+        {
+          "constituents": [
+            {
+              "name": "ZR",
+              "elements": [
+                {
+                  "left": {
+                    "elementName": "ZR",
+                    "isInterstitial": false,
+                    "molarMass": 91.224,
+                    "stableElementReference": "HCP_A3",
+                    "enthalpy": 5566.3,
+                    "entropyDiff0To298K": 39.181,
+                    "isValid": true
+                  },
+                  "right": 1.0
+                }
+              ],
+              "charge": 0,
+              "isInterstitial": false,
+              "isValid": true
+            },
+            {
+              "name": "TI",
+              "elements": [
+                {
+                  "left": {
+                    "elementName": "TI",
+                    "isInterstitial": false,
+                    "molarMass": 47.88,
+                    "stableElementReference": "HCP_A3",
+                    "enthalpy": 4810.0,
+                    "entropyDiff0To298K": 30.648,
+                    "isValid": true
+                  },
+                  "right": 1.0
+                }
+              ],
+              "charge": 0,
+              "isInterstitial": false,
+              "isValid": true
+            },
+            {
+              "name": "NB",
+              "elements": [
+                {
+                  "left": {
+                    "elementName": "NB",
+                    "isInterstitial": false,
+                    "molarMass": 92.906,
+                    "stableElementReference": "BCC_A2",
+                    "enthalpy": 5220.0,
+                    "entropyDiff0To298K": 36.27,
+                    "isValid": true
+                  },
+                  "right": 1.0
+                }
+              ],
+              "charge": 0,
+              "isInterstitial": false,
+              "isValid": true
+            }
+          ],
+          "nrOfSites": 1.0
+        },
+        {
+          "constituents": [
+            {
+              "name": "VA",
+              "elements": [
+                {
+                  "left": {
+                    "elementName": "VA",
+                    "isInterstitial": false,
+                    "molarMass": 0.0,
+                    "stableElementReference": "VACUUM",
+                    "enthalpy": 0.0,
+                    "entropyDiff0To298K": 0.0,
+                    "isValid": true
+                  },
+                  "right": 1.0
+                }
+              ],
+              "charge": 0,
+              "isInterstitial": false,
+              "isValid": true
+            }
+          ],
+          "nrOfSites": 0.5
+        }
+      ],
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "HALITE",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "G_PHASE",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "GRAPHITE",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "GPHASE",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "GAS",
+    "metadata": {
+      "type": "GAS",
+      "hasMolarVolumeData": false,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "GAMMA_H",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "GAMMA_D83",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "FLUORITE_C1",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "FESN",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "FESI_B20",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "FESI2_L",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "FESI2_H",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "FECN_CHI",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "FE7MO6",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "FE5SN3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "FE4N_LP1",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "FE3SN2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "FE2SI",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "FE1SN2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "FCC_B1",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "FCC_A1",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "DIS_SIG",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "DIS_MU",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "DIS_BETA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "DIAMOND_A4",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "DELTA_TIH2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "D5A_M3B2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "D0I_MO2B5",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CUZR2_C11B",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CUTI_B11",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CUTI3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CUSN_GAMMA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CUSI_ETA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CUPRITE_C3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CUO",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CUB_A13",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CU6SN5_LT",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CU6SN5_HT",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CU56SI11_GAMMA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CU4TI3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CU4TI1",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CU41SN11",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CU3TI2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CU3SN",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CU33SI7_DELTA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CU2TI",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CU15SI4_EPSILON",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CU10SN3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CRSI2_C40",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CRPD_L10",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CRNI2_OP6",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CRISTOBALITE",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CRB4",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CR8FE16TI5",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CR5B3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CR3SI_A15",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CR3NI5SI2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CR3MN5",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CR2PD3_L12",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CR2B_ORTH",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "COY_BF",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "COSN",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CORUNDUM",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "COB",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CO7Y6",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CO7MO6",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CO7M2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CO7HF",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CO5Y_D2D",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CO5Y8",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CO3Y4",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CO3Y2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CO3Y1",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CO3VV",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CO3SN2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CO3SI",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CO2SI_C23",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CO1SN3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CO1SN2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CO1SN1TI1",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CO17Y2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CO11ZR2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CHI_A12",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CFC2_FENBZR",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CEMENTITE",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "CBCC_A12",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "C36_LAVES",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "C16_THETA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "C15_LAVES",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "C14_LAVES",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "BW_BETA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "BW_ALPHA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "BN_B4",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "BNSI",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "BETA_V3O",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "BETA_PHASE",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "BETAR_BORON",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "BCT_A5",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "BCC_B2#2",
+    "metadata": {
+      "type": "SOLID",
+      "sublattices": [
+        {
+          "constituents": [
+            {
+              "name": "ZR",
+              "elements": [
+                {
+                  "left": {
+                    "elementName": "ZR",
+                    "isInterstitial": false,
+                    "molarMass": 91.224,
+                    "stableElementReference": "HCP_A3",
+                    "enthalpy": 5566.3,
+                    "entropyDiff0To298K": 39.181,
+                    "isValid": true
+                  },
+                  "right": 1.0
+                }
+              ],
+              "charge": 0,
+              "isInterstitial": false,
+              "isValid": true
+            },
+            {
+              "name": "VA",
+              "elements": [
+                {
+                  "left": {
+                    "elementName": "VA",
+                    "isInterstitial": false,
+                    "molarMass": 0.0,
+                    "stableElementReference": "VACUUM",
+                    "enthalpy": 0.0,
+                    "entropyDiff0To298K": 0.0,
+                    "isValid": true
+                  },
+                  "right": 1.0
+                }
+              ],
+              "charge": 0,
+              "isInterstitial": false,
+              "isValid": true
+            },
+            {
+              "name": "TI",
+              "elements": [
+                {
+                  "left": {
+                    "elementName": "TI",
+                    "isInterstitial": false,
+                    "molarMass": 47.88,
+                    "stableElementReference": "HCP_A3",
+                    "enthalpy": 4810.0,
+                    "entropyDiff0To298K": 30.648,
+                    "isValid": true
+                  },
+                  "right": 1.0
+                }
+              ],
+              "charge": 0,
+              "isInterstitial": false,
+              "isValid": true
+            },
+            {
+              "name": "NB",
+              "elements": [
+                {
+                  "left": {
+                    "elementName": "NB",
+                    "isInterstitial": false,
+                    "molarMass": 92.906,
+                    "stableElementReference": "BCC_A2",
+                    "enthalpy": 5220.0,
+                    "entropyDiff0To298K": 36.27,
+                    "isValid": true
+                  },
+                  "right": 1.0
+                }
+              ],
+              "charge": 0,
+              "isInterstitial": false,
+              "isValid": true
+            }
+          ],
+          "nrOfSites": 0.5
+        },
+        {
+          "constituents": [
+            {
+              "name": "ZR",
+              "elements": [
+                {
+                  "left": {
+                    "elementName": "ZR",
+                    "isInterstitial": false,
+                    "molarMass": 91.224,
+                    "stableElementReference": "HCP_A3",
+                    "enthalpy": 5566.3,
+                    "entropyDiff0To298K": 39.181,
+                    "isValid": true
+                  },
+                  "right": 1.0
+                }
+              ],
+              "charge": 0,
+              "isInterstitial": false,
+              "isValid": true
+            },
+            {
+              "name": "VA",
+              "elements": [
+                {
+                  "left": {
+                    "elementName": "VA",
+                    "isInterstitial": false,
+                    "molarMass": 0.0,
+                    "stableElementReference": "VACUUM",
+                    "enthalpy": 0.0,
+                    "entropyDiff0To298K": 0.0,
+                    "isValid": true
+                  },
+                  "right": 1.0
+                }
+              ],
+              "charge": 0,
+              "isInterstitial": false,
+              "isValid": true
+            },
+            {
+              "name": "TI",
+              "elements": [
+                {
+                  "left": {
+                    "elementName": "TI",
+                    "isInterstitial": false,
+                    "molarMass": 47.88,
+                    "stableElementReference": "HCP_A3",
+                    "enthalpy": 4810.0,
+                    "entropyDiff0To298K": 30.648,
+                    "isValid": true
+                  },
+                  "right": 1.0
+                }
+              ],
+              "charge": 0,
+              "isInterstitial": false,
+              "isValid": true
+            },
+            {
+              "name": "NB",
+              "elements": [
+                {
+                  "left": {
+                    "elementName": "NB",
+                    "isInterstitial": false,
+                    "molarMass": 92.906,
+                    "stableElementReference": "BCC_A2",
+                    "enthalpy": 5220.0,
+                    "entropyDiff0To298K": 36.27,
+                    "isValid": true
+                  },
+                  "right": 1.0
+                }
+              ],
+              "charge": 0,
+              "isInterstitial": false,
+              "isValid": true
+            }
+          ],
+          "nrOfSites": 0.5
+        },
+        {
+          "constituents": [
+            {
+              "name": "VA",
+              "elements": [
+                {
+                  "left": {
+                    "elementName": "VA",
+                    "isInterstitial": false,
+                    "molarMass": 0.0,
+                    "stableElementReference": "VACUUM",
+                    "enthalpy": 0.0,
+                    "entropyDiff0To298K": 0.0,
+                    "isValid": true
+                  },
+                  "right": 1.0
+                }
+              ],
+              "charge": 0,
+              "isInterstitial": false,
+              "isValid": true
+            }
+          ],
+          "nrOfSites": 3.0
+        }
+      ],
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "BCC_B2",
+    "metadata": {
+      "type": "SOLID",
+      "sublattices": [
+        {
+          "constituents": [
+            {
+              "name": "ZR",
+              "elements": [
+                {
+                  "left": {
+                    "elementName": "ZR",
+                    "isInterstitial": false,
+                    "molarMass": 91.224,
+                    "stableElementReference": "HCP_A3",
+                    "enthalpy": 5566.3,
+                    "entropyDiff0To298K": 39.181,
+                    "isValid": true
+                  },
+                  "right": 1.0
+                }
+              ],
+              "charge": 0,
+              "isInterstitial": false,
+              "isValid": true
+            },
+            {
+              "name": "VA",
+              "elements": [
+                {
+                  "left": {
+                    "elementName": "VA",
+                    "isInterstitial": false,
+                    "molarMass": 0.0,
+                    "stableElementReference": "VACUUM",
+                    "enthalpy": 0.0,
+                    "entropyDiff0To298K": 0.0,
+                    "isValid": true
+                  },
+                  "right": 1.0
+                }
+              ],
+              "charge": 0,
+              "isInterstitial": false,
+              "isValid": true
+            },
+            {
+              "name": "TI",
+              "elements": [
+                {
+                  "left": {
+                    "elementName": "TI",
+                    "isInterstitial": false,
+                    "molarMass": 47.88,
+                    "stableElementReference": "HCP_A3",
+                    "enthalpy": 4810.0,
+                    "entropyDiff0To298K": 30.648,
+                    "isValid": true
+                  },
+                  "right": 1.0
+                }
+              ],
+              "charge": 0,
+              "isInterstitial": false,
+              "isValid": true
+            },
+            {
+              "name": "NB",
+              "elements": [
+                {
+                  "left": {
+                    "elementName": "NB",
+                    "isInterstitial": false,
+                    "molarMass": 92.906,
+                    "stableElementReference": "BCC_A2",
+                    "enthalpy": 5220.0,
+                    "entropyDiff0To298K": 36.27,
+                    "isValid": true
+                  },
+                  "right": 1.0
+                }
+              ],
+              "charge": 0,
+              "isInterstitial": false,
+              "isValid": true
+            }
+          ],
+          "nrOfSites": 0.5
+        },
+        {
+          "constituents": [
+            {
+              "name": "ZR",
+              "elements": [
+                {
+                  "left": {
+                    "elementName": "ZR",
+                    "isInterstitial": false,
+                    "molarMass": 91.224,
+                    "stableElementReference": "HCP_A3",
+                    "enthalpy": 5566.3,
+                    "entropyDiff0To298K": 39.181,
+                    "isValid": true
+                  },
+                  "right": 1.0
+                }
+              ],
+              "charge": 0,
+              "isInterstitial": false,
+              "isValid": true
+            },
+            {
+              "name": "VA",
+              "elements": [
+                {
+                  "left": {
+                    "elementName": "VA",
+                    "isInterstitial": false,
+                    "molarMass": 0.0,
+                    "stableElementReference": "VACUUM",
+                    "enthalpy": 0.0,
+                    "entropyDiff0To298K": 0.0,
+                    "isValid": true
+                  },
+                  "right": 1.0
+                }
+              ],
+              "charge": 0,
+              "isInterstitial": false,
+              "isValid": true
+            },
+            {
+              "name": "TI",
+              "elements": [
+                {
+                  "left": {
+                    "elementName": "TI",
+                    "isInterstitial": false,
+                    "molarMass": 47.88,
+                    "stableElementReference": "HCP_A3",
+                    "enthalpy": 4810.0,
+                    "entropyDiff0To298K": 30.648,
+                    "isValid": true
+                  },
+                  "right": 1.0
+                }
+              ],
+              "charge": 0,
+              "isInterstitial": false,
+              "isValid": true
+            },
+            {
+              "name": "NB",
+              "elements": [
+                {
+                  "left": {
+                    "elementName": "NB",
+                    "isInterstitial": false,
+                    "molarMass": 92.906,
+                    "stableElementReference": "BCC_A2",
+                    "enthalpy": 5220.0,
+                    "entropyDiff0To298K": 36.27,
+                    "isValid": true
+                  },
+                  "right": 1.0
+                }
+              ],
+              "charge": 0,
+              "isInterstitial": false,
+              "isValid": true
+            }
+          ],
+          "nrOfSites": 0.5
+        },
+        {
+          "constituents": [
+            {
+              "name": "VA",
+              "elements": [
+                {
+                  "left": {
+                    "elementName": "VA",
+                    "isInterstitial": false,
+                    "molarMass": 0.0,
+                    "stableElementReference": "VACUUM",
+                    "enthalpy": 0.0,
+                    "entropyDiff0To298K": 0.0,
+                    "isValid": true
+                  },
+                  "right": 1.0
+                }
+              ],
+              "charge": 0,
+              "isInterstitial": false,
+              "isValid": true
+            }
+          ],
+          "nrOfSites": 3.0
+        }
+      ],
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "BCC_A2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "B9W2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "B82_OMEGA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "B6SI",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "B5W2_X",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "B4C",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "B3SI",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "B2O3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "B12ZR",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ANDALUSITE",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ALZR",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ALTI_L10",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ALTI3_D019",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ALSI3TI2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ALRE",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ALPHA_SPINEL",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ALPHA_B19",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ALN_B4",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ALNTI3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ALNTI2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ALM3C_E21",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ALH3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ALCU_ZETA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ALCU_ETA",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ALCU_EPS",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ALCU_DEL",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ALCR3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ALCR2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ALCCR2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ALBMO",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "ALB12",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL9CO2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL8V5",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL8MO3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL8CR5_MT",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": false,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL8CR5_LT",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL8CR5_HT",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL7W3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL7CR",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL77W23",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL6MN",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL63MO37",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL5W",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL5TI3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL5TI2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL5FE4",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL5FE2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL5CO2_D811",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL4ZR5",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL4W",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL4RE",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL4PD",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL4MN_U",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL4MN_R",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL4FE",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL4CR",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL4C3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL45V7",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL3ZR_D023",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL3ZR5",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL3ZR4",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL3ZR2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL3Y_LT",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL3Y_HT",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL3TI_LT",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL3TI_D022",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL3PD5",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL3PD1",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL3NI5",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL3NI2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL3NI1",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL3MO",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL3CO",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL2ZR3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL2W",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL2TI",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL2PD5",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL2N2TI3",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL2FE",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL2CU_C16",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL23V4",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL22MO5",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL21V2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL21PT8",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL1ZR2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL1RE2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL17MO4",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL13FE4",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL13CO4",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL12W",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL12MN",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL11RE4",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL11MN4_LT",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL11MN4_HT",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL11CR4",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AL11CR2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AGTI",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AG1TI2",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  },
+  {
+    "phaseName": "AF",
+    "metadata": {
+      "type": "SOLID",
+      "hasMolarVolumeData": true,
+      "hasDiffusionData": false,
+      "diluteDiffusionModel": {
+        "type": "se.thermocalc.externalapi.database.NoDiffusion"
+      }
+    }
+  }
+]

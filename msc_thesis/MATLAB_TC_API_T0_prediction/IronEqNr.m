@@ -1,9 +1,9 @@
 clear variables; home; close all
 
-load('data4/bio_df.mat');
+load('data4/validation_set4.mat');
 load('data/elements.mat');
 
-df2 = T;
+df2 = bio_alloys_df;
 
 % Initialize the table with zeros
 temp = array2table(zeros(height(df2), 14));
