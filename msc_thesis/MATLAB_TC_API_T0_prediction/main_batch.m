@@ -15,10 +15,10 @@ TC.temperature_ini = 1273; % in Kelvin
 
 %% Import alloy information and extract data
 %load('bio_alloys/filtered_bio_df.mat');
-load('data4\validation_set3.mat')
+load('data4\df_all.mat')
 %Get compositions in molar fractions
 
-T = bio_alloys_df;
+T = df2;
 
 for ii = 1:height(T)
     composition{ii} = get_composition(T.alloy{ii});

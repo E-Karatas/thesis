@@ -136,6 +136,13 @@ non_diagonal_sum = np.sum(cnf_matrix) - np.sum(np.diag(cnf_matrix))
 
 print("incorrect predictions on training set with", Z, "features:", non_diagonal_sum)
 
+# Find misclassified samples
+#misclassified_indices = y[y != y_pred].index
+
+# Print the alloy compositions of the misclassified samples
+#misclassified_alloys = df.loc[misclassified_indices, 'alloy']
+#print(misclassified_alloys)
+
 class_names = [0,1,2,3]
 fig, ax = plt.subplots()
 tick_marks = np.arange(len(class_names))
@@ -189,6 +196,13 @@ bio_cnf_matrix = confusion_matrix(y_bio, y_pred_bio)
 bio_non_diagonal_sum = np.sum(bio_cnf_matrix) - np.sum(np.diag(bio_cnf_matrix))
 
 print("incorrect predictions on validation set with", Z, "features:", bio_non_diagonal_sum)
+
+# Find misclassified samples
+#misclassified_indices = y_bio[y_bio != y_pred_bio].index
+
+# Print the alloy compositions of the misclassified samples
+#misclassified_alloys = df2.loc[misclassified_indices, 'alloy']
+#print(misclassified_alloys)
 
 class_names = [0,1,2,3]
 fig, ax = plt.subplots()

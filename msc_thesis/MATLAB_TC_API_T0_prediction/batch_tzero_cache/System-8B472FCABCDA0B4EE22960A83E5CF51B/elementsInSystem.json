@@ -1,0 +1,29 @@
+[
+  {
+    "elementName": "TI",
+    "isInterstitial": false,
+    "molarMass": 47.88,
+    "stableElementReference": "HCP_A3",
+    "enthalpy": 4810.0,
+    "entropyDiff0To298K": 30.648,
+    "isValid": true
+  },
+  {
+    "elementName": "MO",
+    "isInterstitial": false,
+    "molarMass": 95.94,
+    "stableElementReference": "BCC_A2",
+    "enthalpy": 4589.0,
+    "entropyDiff0To298K": 28.56,
+    "isValid": true
+  },
+  {
+    "elementName": "FE",
+    "isInterstitial": false,
+    "molarMass": 55.847,
+    "stableElementReference": "BCC_A2",
+    "enthalpy": 4489.0,
+    "entropyDiff0To298K": 27.28,
+    "isValid": true
+  }
+]
